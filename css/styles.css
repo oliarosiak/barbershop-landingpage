@@ -6,7 +6,20 @@
   accent-color: #ff6c00;
 }
 
-/* Скидання силів */
+/* Шрифты 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+  letter-spacing: 0.02em;
+}
+
+/* - - - - - - - - - - - - - - - - Скидання силів */
 p,
 h1,
 h2,
@@ -29,7 +42,7 @@ img {
   height: auto;
 }
 
-/* Утиліти */
+/* - - - - - - - - - - - - - - - -  Утиліти */
 .link {
   text-decoration: none;
 }
