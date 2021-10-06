@@ -60,41 +60,62 @@ img {
 
 /*  - - - - - - - - - - - - - - - - HEADER */
 
+.header-wrapper {
+  display: flex;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+}
+
 /*  - - - - - - - - - - - - - - - - ГЕРОЙ */
 
 /*  - - - - - - - - - - - - - - - - ПРО НАС */
 
-.about {
-  padding-top: 139px;
-  padding-bottom: 121px;
+.about-wrapper {
+  display: flex;
 }
 
 .about-list {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-}
-
-.about-item.text {
-  width: 500px;
-}
-
-.about-item:nth-child(3) {
-  margin-right: 30px;
-}
-
-.about-item:nth-child(2) {
-  margin-right: 64px;
 }
 
 /*  - - - - - - - - - - - - - - - - ЦЕНЫ */
+.price-wrapper {
+}
+
+.price-block {
+  display: flex;
+}
+
+.price-master,
+.price-trainee {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-master-item,
+.price-trainee-item {
+  display: flex;
+}
 
 /*  - - - - - - - - - - - - - - - - НАШИ ПРЕИМУЩЕСТВА */
 
+.benefits-wrapper {
+  display: flex;
+}
+
 /*  - - - - - - - - - - - - - - - - НАШИ МАСТЕРА */
+.masters-list {
+  display: flex;
+}
 
 /*  - - - - - - - - - - - - - - - - ГАЛЕРЕЯ */
 
 /*  - - - - - - - - - - - - - - - - ЗАПИСЬ И КОНТАКТЫ */
 
-/*  - - - - - - - - - - - - - - - - FOOTER */
+/*  - - - - - - - - - - - - - - - - FOOTER */ ;
