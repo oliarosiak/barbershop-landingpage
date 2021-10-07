@@ -1,9 +1,9 @@
 :root {
-  main-text-color: #555555;
-  second-text-color: #303030;
-  third-text-color: #9da4bd;
-  white-text-color: #ffffff;
-  accent-color: #ff6c00;
+  --main-text-color: #555555;
+  --second-text-color: #303030;
+  --third-text-color: #9da4bd;
+  --white-text-color: #ffffff;
+  --accent-color: #ff6c00;
 }
 
 /* Шрифты 
@@ -110,8 +110,75 @@ img {
 }
 
 /*  - - - - - - - - - - - - - - - - НАШИ МАСТЕРА */
+
+.masters-wrapper {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.masters-pretitle {
+  position: relative;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--second-text-color);
+}
+
+/* .masters-pretitle::before {
+  content: '';
+  position: absolute;
+  flex-grow: 1;
+  display: block;
+  top: 50%;
+  margin-right: 20px;
+  width: 60px;
+  height: 1px;
+
+  background-color: var(--second-text-color);
+} */
+
+.masters-title {
+  margin-bottom: 20px;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--second-text-color);
+}
+
 .masters-list {
   display: flex;
+}
+
+.masters-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.masters-list-title {
+  margin-top: 30px;
+  margin-bottom: 8px;
+
+  font-weight: 400;
+  line-height: 1.39;
+  text-align: center;
+
+  color: var(--second-text-color);
+}
+
+.masters-list-text {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+
+  color: var(--accent-color);
 }
 
 /*  - - - - - - - - - - - - - - - - ГАЛЕРЕЯ */
