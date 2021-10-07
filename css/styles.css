@@ -111,6 +111,10 @@ img {
 
 /*  - - - - - - - - - - - - - - - - НАШИ МАСТЕРА */
 
+.masters {
+  background-color: #f7f7f7;
+}
+
 .masters-wrapper {
   padding-top: 130px;
   padding-bottom: 130px;
@@ -166,6 +170,7 @@ img {
   margin-bottom: 8px;
 
   font-weight: 400;
+  font-size: 18px;
   line-height: 1.39;
   text-align: center;
 
@@ -179,6 +184,40 @@ img {
   text-align: center;
 
   color: var(--accent-color);
+}
+
+.masters-icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.masters-icon-item {
+  width: 44px;
+  height: 44px;
+}
+
+.masters-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.masters-icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  fill: var(--second-text-color);
+  background-color: #ffffff;
+  border-radius: 50%;
+
+  transition: fill 350ms ease-in-out, background-color 350ms ease-in-out;
+}
+
+.masters-icon-link:hover,
+.masters-icon-link:focus {
+  fill: var(--accent-color);
+  background-color: var(--second-text-color);
 }
 
 /*  - - - - - - - - - - - - - - - - ГАЛЕРЕЯ */
