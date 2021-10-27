@@ -1,53 +1,5 @@
-/* Шрифты 
-font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-*/
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-
-  letter-spacing: 0.02em;
-}
-
-/* - - - - - - - - - - - - - - - - Скидання силів */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding-left: 0;
-  list-style-type: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* - - - - - - - - - - - - - - - -  Утиліти */
-.link {
-  text-decoration: none;
-}
-
 .address-contacts {
   font-style: normal;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /*  - - - - - - - - - - - - - - - - HEADER */
@@ -77,8 +29,8 @@ img {
 }
 
 /*  - - - - - - - - - - - - - - - - ЦЕНЫ */
-.price-wrapper {
-}
+/* .price-wrapper {
+} */
 
 .price-block {
   display: flex;
