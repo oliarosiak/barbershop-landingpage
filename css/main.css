@@ -50,4 +50,17 @@ a {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.gallery__container {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.gallery-list {
+  display: flex;
+}
+
+.gallery-list__item:not(:last-child) {
+  margin-right: 30px;
+}
 /*# sourceMappingURL=main.css.map */
