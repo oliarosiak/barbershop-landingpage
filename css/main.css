@@ -102,6 +102,34 @@ a {
   background-color: #303030;
 }
 
+.btn {
+  width: 160px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+  background-color: transparent;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+  color: #ffffff;
+  background-color: #ff6c00;
+}
+
+.btn--price-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+}
+
 /*  - - - - - - - - - - - - - - - - HEADER */
 .header-wrapper {
   display: flex;
@@ -178,27 +206,6 @@ a {
   margin-bottom: 40px;
 }
 
-.btn {
-  width: 160px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: #303030;
-  background-color: transparent;
-  border: 1px solid #ff6c00;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-.btn:hover, .btn:focus {
-  color: #ffffff;
-  background-color: #ff6c00;
-}
-
 /*  - - - - - - - - - - - - - - - - ЦЕНЫ */
 .price {
   padding-top: 130px;
@@ -245,16 +252,45 @@ a {
   color: #9da4bd;
 }
 
-.btn--price-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
+/*  - - - - - - - - - - - - - - - - НАШИ ПРЕИМУЩЕСТВА */
+.benefits {
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
-/*  - - - - - - - - - - - - - - - - НАШИ ПРЕИМУЩЕСТВА */
-.benefits-wrapper {
+.benefits__container {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.benefits__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 130px;
+}
+
+.benefits__item {
+  width: 170px;
+  min-height: 133px;
+  background-color: #f7f7f7;
+}
+
+.benefits__item:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.benefits__item:nth-child(-n + 2) {
+  margin-bottom: 30px;
+}
+
+.benefits__wrapper {
+  max-width: 500px;
+}
+
+.benefits__text {
+  font-size: 18px;
+  line-height: 1.67;
+  color: #555555;
 }
 
 /*  - - - - - - - - - - - - - - - - НАШИ МАСТЕРА */
