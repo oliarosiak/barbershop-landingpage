@@ -1,0 +1,18 @@
+/*  - - - - - - - - - - - - - - - - ЦЕНЫ */
+/* .price-wrapper {
+} */
+
+.price-block {
+  display: flex;
+}
+
+.price-master,
+.price-trainee {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-master-item,
+.price-trainee-item {
+  display: flex;
+}

@@ -1,58 +1,3 @@
-.address-contacts {
-  font-style: normal;
-}
-
-/*  - - - - - - - - - - - - - - - - HEADER */
-
-.header-wrapper {
-  display: flex;
-}
-
-.main-nav {
-  display: flex;
-}
-
-.nav-list {
-  display: flex;
-}
-
-/*  - - - - - - - - - - - - - - - - ГЕРОЙ */
-
-/*  - - - - - - - - - - - - - - - - ПРО НАС */
-
-.about-wrapper {
-  display: flex;
-}
-
-.about-list {
-  display: flex;
-}
-
-/*  - - - - - - - - - - - - - - - - ЦЕНЫ */
-/* .price-wrapper {
-} */
-
-.price-block {
-  display: flex;
-}
-
-.price-master,
-.price-trainee {
-  display: flex;
-  flex-direction: column;
-}
-
-.price-master-item,
-.price-trainee-item {
-  display: flex;
-}
-
-/*  - - - - - - - - - - - - - - - - НАШИ ПРЕИМУЩЕСТВА */
-
-.benefits-wrapper {
-  display: flex;
-}
-
 /*  - - - - - - - - - - - - - - - - НАШИ МАСТЕРА */
 
 .masters {
@@ -159,9 +104,3 @@
   fill: var(--accent-color);
   background-color: var(--second-text-color);
 }
-
-/*  - - - - - - - - - - - - - - - - ГАЛЕРЕЯ */
-
-/*  - - - - - - - - - - - - - - - - ЗАПИСЬ И КОНТАКТЫ */
-
-/*  - - - - - - - - - - - - - - - - FOOTER */ ;
