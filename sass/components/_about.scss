@@ -1,9 +1,95 @@
 /*  - - - - - - - - - - - - - - - - ПРО НАС */
 
-.about-wrapper {
+.about {
+  padding-top: 139px;
+  padding-bottom: 121px;
+}
+
+.about__container {
   display: flex;
 }
 
-.about-list {
+.about__list {
   display: flex;
+  flex-shrink: 0;
+  margin-right: 64px;
+}
+
+.about__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+// .about__info {
+//   width: 500px;
+// }
+
+.about__pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $mainTitleColor;
+
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+  &::before {
+    content: '';
+    // display: inline-block;
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    background: $mainTitleColor;
+    // transform: rotate(90deg);
+  }
+}
+
+.about__title {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: $mainTitleColor;
+  margin-bottom: 20px;
+}
+
+.about__pretext {
+  line-height: 1.67;
+  color: $mainTextColor;
+  margin-bottom: 20px;
+}
+
+.about__text {
+  font-size: 14px;
+  line-height: 1.86;
+  color: $mainTextColor;
+  margin-bottom: 40px;
+}
+
+.btn {
+  width: 160px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: $mainTitleColor;
+
+  background-color: transparent;
+  border: 1px solid $accentOrangecolor;
+  border-radius: 25px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $mainWhiteColor;
+    background-color: $accentOrangecolor;
+  }
 }
