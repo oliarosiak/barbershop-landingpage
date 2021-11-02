@@ -1,19 +1,22 @@
 @import './utils/vars';
 @import './base/common';
 @import './base/reset';
+
 @import './components/container';
+@import './components/title';
+@import './components/pretitle';
 
 // Header
-@import './components/header';
+@import './layout/header';
 // About us
-@import './components/about';
+@import './layout/about';
 // Prices
-@import './components/prices';
+@import './layout/prices';
 // Benefits
-@import './components/benefits';
+@import './layout/benefits';
 // Masters
-@import './components/masters';
+@import './layout/masters';
 // Gallery list
-@import './components/gallery-list';
+@import './layout/gallery-list';
 // Online
-@import './components/online';
+@import './layout/online';
