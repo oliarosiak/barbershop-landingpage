@@ -41,6 +41,7 @@ img {
 }
 
 a {
+  display: block;
   text-decoration: none;
 }
 
@@ -49,6 +50,149 @@ a {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+/*  - - - - - - - - - - - - - - - - HEADER */
+.header-wrapper {
+  display: flex;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+}
+
+/*  - - - - - - - - - - - - - - - - ПРО НАС */
+.about-wrapper {
+  display: flex;
+}
+
+.about-list {
+  display: flex;
+}
+
+/*  - - - - - - - - - - - - - - - - ЦЕНЫ */
+/* .price-wrapper {
+} */
+.price-block {
+  display: flex;
+}
+
+.price-master,
+.price-trainee {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-master-item,
+.price-trainee-item {
+  display: flex;
+}
+
+/*  - - - - - - - - - - - - - - - - НАШИ ПРЕИМУЩЕСТВА */
+.benefits-wrapper {
+  display: flex;
+}
+
+/*  - - - - - - - - - - - - - - - - НАШИ МАСТЕРА */
+.masters {
+  background-color: #f7f7f7;
+}
+
+.masters-wrapper {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.masters-pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  color: var(--second-text-color);
+}
+
+.masters-pretitle::before {
+  content: '';
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+  background-color: var(--second-text-color);
+}
+
+.masters-title {
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--second-text-color);
+}
+
+.masters-list {
+  display: flex;
+}
+
+.masters-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.masters-list-title {
+  margin-top: 30px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+.masters-list-text {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.masters-icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.masters-icon-item {
+  width: 44px;
+  height: 44px;
+}
+
+.masters-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.masters-icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--second-text-color);
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: fill 350ms ease-in-out, background-color 350ms ease-in-out;
+}
+
+.masters-icon-link:hover,
+.masters-icon-link:focus {
+  fill: var(--accent-color);
+  background-color: var(--second-text-color);
 }
 
 .gallery__container {
@@ -62,5 +206,9 @@ a {
 
 .gallery-list__item:not(:last-child) {
   margin-right: 30px;
+}
+
+.address-contacts {
+  font-style: normal;
 }
 /*# sourceMappingURL=main.css.map */
