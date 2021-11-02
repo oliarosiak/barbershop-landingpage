@@ -1,5 +1,38 @@
 /*  - - - - - - - - - - - - - - - - НАШИ ПРЕИМУЩЕСТВА */
+.benefits {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
 
-.benefits-wrapper {
+.benefits__container {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.benefits__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 130px;
+}
+
+.benefits__item {
+  width: 170px;
+  min-height: 133px;
+  background-color: $bcgColorGrey;
+  &:nth-child(odd) {
+    margin-right: 30px;
+  }
+  &:nth-child(-n + 2) {
+    margin-bottom: 30px;
+  }
+}
+
+.benefits__wrapper {
+  max-width: 500px;
+}
+
+.benefits__text {
+  font-size: 18px;
+  line-height: 1.67;
+  color: $mainTextColor;
 }
