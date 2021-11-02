@@ -1,12 +1,4 @@
 @charset "UTF-8";
-:root {
-  --main-text-color: #555555;
-  --second-text-color: #303030;
-  --third-text-color: #9da4bd;
-  --white-text-color: #ffffff;
-  --accent-color: #ff6c00;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -115,7 +107,7 @@ a {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  color: var(--second-text-color);
+  color: #303030;
 }
 
 .masters-pretitle::before {
@@ -124,7 +116,7 @@ a {
   width: 60px;
   height: 1px;
   margin-right: 20px;
-  background-color: var(--second-text-color);
+  background-color: #303030;
 }
 
 .masters-title {
@@ -134,7 +126,7 @@ a {
   font-size: 42px;
   line-height: 1.17;
   letter-spacing: 0.05em;
-  color: var(--second-text-color);
+  color: #303030;
 }
 
 .masters-list {
@@ -152,7 +144,7 @@ a {
   font-size: 18px;
   line-height: 1.39;
   text-align: center;
-  color: var(--second-text-color);
+  color: #303030;
 }
 
 .masters-list-text {
@@ -160,7 +152,7 @@ a {
   font-size: 14px;
   line-height: 1.36;
   text-align: center;
-  color: var(--accent-color);
+  color: #ff6c00;
 }
 
 .masters-icon-list {
@@ -183,7 +175,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--second-text-color);
+  fill: #303030;
   background-color: #ffffff;
   border-radius: 50%;
   transition: fill 350ms ease-in-out, background-color 350ms ease-in-out;
@@ -191,8 +183,8 @@ a {
 
 .masters-icon-link:hover,
 .masters-icon-link:focus {
-  fill: var(--accent-color);
-  background-color: var(--second-text-color);
+  fill: #ff6c00;
+  background-color: #303030;
 }
 
 .gallery__container {
