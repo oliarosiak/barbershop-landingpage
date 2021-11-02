@@ -1,7 +1,7 @@
 /*  - - - - - - - - - - - - - - - - НАШИ МАСТЕРА */
 
 .masters {
-  background-color: #f7f7f7;
+  background-color: $bcgColorGrey;
 }
 
 .masters-wrapper {
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
 
-  color: var(--second-text-color);
+  color: $mainTitleColor;
 }
 
 .masters-pretitle::before {
@@ -27,7 +27,7 @@
   width: 60px;
   height: 1px;
   margin-right: 20px;
-  background-color: var(--second-text-color);
+  background-color: $mainTitleColor;
 }
 
 .masters-title {
@@ -39,7 +39,7 @@
   line-height: 1.17;
   letter-spacing: 0.05em;
 
-  color: var(--second-text-color);
+  color: $mainTitleColor;
 }
 
 .masters-list {
@@ -59,7 +59,7 @@
   line-height: 1.39;
   text-align: center;
 
-  color: var(--second-text-color);
+  color: $mainTitleColor;
 }
 
 .masters-list-text {
@@ -68,7 +68,7 @@
   line-height: 1.36;
   text-align: center;
 
-  color: var(--accent-color);
+  color: $accentOrangecolor;
 }
 
 .masters-icon-list {
@@ -92,8 +92,8 @@
   justify-content: center;
   align-items: center;
 
-  fill: var(--second-text-color);
-  background-color: #ffffff;
+  fill: $mainTitleColor;
+  background-color: $mainWhiteColor;
   border-radius: 50%;
 
   transition: fill 350ms ease-in-out, background-color 350ms ease-in-out;
@@ -101,6 +101,6 @@
 
 .masters-icon-link:hover,
 .masters-icon-link:focus {
-  fill: var(--accent-color);
-  background-color: var(--second-text-color);
+  fill: $accentOrangecolor;
+  background-color: $mainTitleColor;
 }
