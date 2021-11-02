@@ -1,0 +1,22 @@
+.title {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+}
+
+.title--color-dark {
+  color: $mainTitleColor;
+}
+
+.title--color-white {
+  color: $mainWhiteColor;
+}
+
+.title--hero-section {
+  font-size: 72px;
+  line-height: 1.18;
+  color: $mainWhiteColor;
+}
