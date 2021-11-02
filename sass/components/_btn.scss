@@ -1,0 +1,30 @@
+.btn {
+  width: 160px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: $mainTitleColor;
+
+  background-color: transparent;
+  border: 1px solid $accentOrangecolor;
+  border-radius: 25px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $mainWhiteColor;
+    background-color: $accentOrangecolor;
+  }
+}
+
+.btn--price-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: $mainWhiteColor;
+}
