@@ -260,7 +260,7 @@ a {
 
 .benefits__container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .benefits__list {
@@ -272,6 +272,9 @@ a {
 .benefits__item {
   width: 170px;
   min-height: 133px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
   background-color: #f7f7f7;
 }
 
@@ -281,6 +284,24 @@ a {
 
 .benefits__item:nth-child(-n + 2) {
   margin-bottom: 30px;
+}
+
+.benefits__info {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.benefits__meta {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: #303030;
 }
 
 .benefits__wrapper {
