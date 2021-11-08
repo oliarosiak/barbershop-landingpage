@@ -97,7 +97,7 @@
         <section class="price">
             <div class="container">
                 <p class="pretitle pretitle--color-grey">Проведи время в компании лучших мастеров</p>
-                <h2 class="title title--color-white">Услуги и цены</h2>
+                <h2 class="title title--color-white title--margin-bottom">Услуги и цены</h2>
                 <div class="price__wrapper">
                     <!-- Ціни на послуги майстрів -->
                     <ul class="price__list price__list--left">
@@ -180,8 +180,8 @@
         <!-- Наши мастера -->
         <section class="masters">
             <div class="container masters-wrapper">
-                <p class="masters-pretitle">для настоящих ценителей атмосферы</p>
-                <h2 class="masters-title">Наши мастера</h2>
+                <p class="pretitle pretitle--color-dark">для настоящих ценителей атмосферы</p>
+                <h2 class="title title--color-dark title--margin-bottom">Наши мастера</h2>
                 <!-- Карточки з майстрами -->
                 <ul class="masters-list">
                     <!-- John Smith -->
@@ -302,7 +302,7 @@
         <!-- Галерея -->
         <section>
             <div class="container gallery__container">
-                <h2 class="pretitle pretitle--color-dark">На латинском языке “барба” означает “борода”</h2>
+                <h2 class="pretitle pretitle--color-dark pretitle--margin-bottom">На латинском языке “барба” означает “борода”</h2>
                 <ul class="gallery-list">
                     <li class="gallery-list__item">
                         <img src="./images/gallery-1.jpg" alt="Работа мастера по стрижке" width="270" />
@@ -321,44 +321,69 @@
         </section>
 
         <!-- Запись и контакты -->
-        <section>
-            <div class="container">
-                <h2></h2>
+        <section class="online">
+            <div class="container online__container">
+                <h2 class="visually-hidden">Как с нами связаться</h2>
                 <!-- Онлайн-запис - Форма -->
-                <div></div>
+                <div class="recording">
+                    <h3 class="title title--color-white title--margin-bottom">Онлайн-запись</h3>
+                    <form class="form">
+                        <label for=""></label>
+                        <input type="text" name="" id="">
+
+                        <label for=""></label>
+                        <input type="text" name="" id="">
+
+                        <label for=""></label>
+                        <textarea name="" id=""></textarea>
+
+                        <button class="btn btn--online-block" type="submit">отправить</button>
+                    </form>
+                </div>
                 <!-- Контакти -->
-                <div>
-                    <h3>Контакты</h3>
+                <div class="contacts">
+                    <h3 class="title title--color-white contacts__title">Контакты</h3>
                     <address>
-                        <ul class="address-contacts">
-                            <li>
-                                ул. Васильковая, 7А <br />
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <svg class="contacts__icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-map-pin"></use>
+                                </svg>
+                                ул. Васильковая, 7А <br>
                                 Киев, 08132
                             </li>
-                            <li><a class="link" href="tel:+380441111111">+38 044 111 11 11</a></li>
-                            <li><a class="link" href="mailto:barbershop@email.com">barbershop@email.com</a></li>
+                            <li class="contacts__item">
+                                <svg class="contacts__icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-phone"></use>
+                                </svg>
+                                <a class="contacts__link" href="tel:+380441111111">+38 044 111 11 11</a>
+                            </li>
+                            <li class="contacts__item">
+                                <svg class="contacts__icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-mail"></use>
+                                </svg>
+                                <a class="contacts__link contacts__link--mail" href="mailto:barbershop@email.com">barbershop@email.com</a>
+                            </li>
                         </ul>
                     </address>
-                    <h4>время работы</h4>
-                    <p>Ежедневно с 9:00 до 22:00</p>
+                    <h4 class="pretitle pretitle--color-white">время работы</h4>
+                    <p class="contacts__work-time">Ежедневно с 9:00 до 22:00</p>
                 </div>
             </div>            
         </section>      
     </main>
 
-    <footer>
-        <div class="container">
-            <!-- Соц.мережі -->
-            <div>
-                <ul>
-                    <li>Instagram</li>
-                    <li>Youtube</li>
-                </ul>
-            </div>
+    <footer class="footer">
+        <div class="container footer__container">
             <!-- Права власномті -->
             <div>
                 <p>Copyright 2020</p>
             </div>
+            <!-- Соц.мережі -->
+            <ul class="footer__list">
+                <li class="footer__item">Instagram</li>
+                <li class="footer__item">Youtube</li>
+            </ul>
         </div>              
     </footer>
   </body>
