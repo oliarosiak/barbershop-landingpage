@@ -1,0 +1,20 @@
+.footer {
+  padding-top: 57px;
+  padding-bottom: 55px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__list {
+  display: flex;
+}
+
+.footer__item {
+  &:first-child {
+    margin-right: 40px;
+  }
+}
