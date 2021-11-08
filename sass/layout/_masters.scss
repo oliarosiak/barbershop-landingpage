@@ -9,38 +9,6 @@
   padding-bottom: 130px;
 }
 
-.masters-pretitle {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-
-  color: $mainTitleColor;
-}
-
-.masters-pretitle::before {
-  content: '';
-  width: 60px;
-  height: 1px;
-  margin-right: 20px;
-  background-color: $mainTitleColor;
-}
-
-.masters-title {
-  margin-bottom: 20px;
-
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.17;
-  letter-spacing: 0.05em;
-
-  color: $mainTitleColor;
-}
-
 .masters-list {
   display: flex;
 }

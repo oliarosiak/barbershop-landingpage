@@ -1,3 +1,56 @@
-.address-contacts {
-  font-style: normal;
+.online {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #191c26;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.online__container {
+  display: flex;
+}
+
+// Блок для запису - Форма онлайн
+.recording {
+  width: 50%;
+}
+
+// Блок з контактами
+.contacts {
+  width: 50%;
+  padding-left: 100px;
+}
+
+.contacts__title {
+  margin-bottom: 40px;
+}
+
+.contacts__list {
+  margin-bottom: 70px;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  line-height: 1.67;
+  color: $secondTextColor;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.contacts__icon {
+  margin-right: 16px;
+}
+
+.contacts__link {
+  color: currentColor;
+  &--mail {
+    text-decoration-line: underline;
+  }
+}
+
+.contacts__work-time {
+  line-height: 1.67;
+  color: $secondTextColor;
 }
