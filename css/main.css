@@ -162,6 +162,7 @@ address {
 }
 
 .btn--online-block {
+  display: block;
   color: #ffffff;
 }
 
@@ -444,6 +445,10 @@ address {
 
 .recording {
   width: 50%;
+}
+
+textarea {
+  resize: none;
 }
 
 .contacts {
